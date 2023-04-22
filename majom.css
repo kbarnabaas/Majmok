@@ -94,8 +94,35 @@
     height: 100px;
   }
 
-  .link,a:hover{
+  .link{
     color: whitesmoke;
     font-size: x-large;
     text-decoration: none;
   }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    margin: 10px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:hover {
+    background-color: #e6f7ff;
+  }
+  
