@@ -28,6 +28,10 @@
     margin: 0;
   }
 
+    ol>li{
+      margin-left: 50px;
+    }
+
   main {
     max-width: 800px;
     margin: 0 auto;
@@ -66,6 +70,11 @@
   img{
     display: flex;
     text-align: center;
+    margin: auto;
     height: 450px;
     width: 700px;
+  }
+
+  .menu{
+    text-align: center;
   }
